@@ -1,0 +1,70 @@
+/* debug */
+.debug body {
+  background-color: red;
+}
+
+
+/* generali */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header .container {
+  padding: 30px 0;
+}
+h1{
+  font-size: 3.5em
+
+}
+.content-90{
+  width: 90%;
+  margin: 0 auto;
+}
+/* header */
+
+/* barra di navigazione  */
+ .nav-list li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+.nav-bar {
+  line-height: 30px;
+}
+.logo img {
+  min-width: 100px;
+  vertical-align: middle;
+  padding-right:10px;
+}
+.nav-list {
+  text-align: right;
+}
+.lenguage {
+  text-align: left;
+}
+.nav-list li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 5px;
+  font-weight: 600;
+}
+
+/* row con sfondo e titolo */
+.teaser {
+  position: relative;
+  height: 500px;
+  background-image: url(../img/header-img.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.text-centrato {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white; /* IDEA: da cancellare */
+}
+
+/* media query header */
