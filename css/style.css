@@ -3,25 +3,34 @@
   background-color: red;
 }
 
-
 /* generali */
+
 body {
-  font-family: 'Open Sans', sans-serif;
-}
-header .container {
-  padding: 30px 0;
-}
-h1{
-  font-size: 3.5em
+font-family: 'Montserrat', sans-serif;
 
 }
-.content-90{
-  width: 90%;
+
+/* header .container {
+  padding: 30px 0;
+} */
+h1{
+  font-size: 3.1em;
+
+}
+  background-color: yellow;
+
+}
+
+.content-80{
+  width: 80%;
   margin: 0 auto;
 }
 /* header */
 
 /* barra di navigazione  */
+.nav-bar [class*="col-"] {
+  padding: 30px 0;
+}
  .nav-list li a {
   text-transform: uppercase;
   text-decoration: none;
@@ -31,11 +40,14 @@ h1{
 .nav-bar {
   line-height: 30px;
 }
-.logo img {
-  min-width: 100px;
+.logo {
+  width: 150px;
+  max-width: 100%;
   vertical-align: middle;
-  padding-right:10px;
+  padding-right:5px;
 }
+
+
 .nav-list {
   text-align: right;
 }
@@ -45,20 +57,21 @@ h1{
 .nav-list li {
   list-style-type: none;
   display: inline-block;
-  padding: 0 5px;
-  font-weight: 600;
+  padding: 0 4px;
 }
 
 /* row con sfondo e titolo */
 .teaser {
   position: relative;
-  height: 500px;
+  height: 650px;
   background-image: url(../img/header-img.jpeg);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 
 }
 .text-centrato {
+  width: 100%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -66,5 +79,51 @@ h1{
   text-align: center;
   color: white; /* IDEA: da cancellare */
 }
-
+.text-centrato p {
+  font-size: 1.1em;
+  font-weight: 400;
+  padding: 35px 0 30px;
+}
+.img-central img {
+  height: 60px;
+  max-width: 100%;
+}
 /* media query header */
+@media all and (max-width: 768px) {
+  .logo {
+    text-align: center;
+  }
+}
+/* MAIN | Section One */
+#helbzgo-or-helbzbike {
+}
+.wrapp {
+  padding: 40px;
+}
+.wrapper-greycolumn {
+  text-align: center;
+}
+.titolo h2 {
+  font-size: 1.5em;
+  padding-top: 30px;
+  font-weight: 200;
+}
+.wrapper-greycolumn {
+  background-color: #fafafa;
+  margin: 0 30px;
+}
+.paragrafo-sec1 {
+  padding: 10px 0;
+}
+.image img {
+  max-height: 300px;
+  max-width: 100%;
+}
+.link a {
+  font-size: 0.8em;
+  color: blue;
+}
+.prova {
+  height: 500px;
+  background-color: red;
+}
