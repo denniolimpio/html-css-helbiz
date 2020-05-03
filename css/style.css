@@ -234,6 +234,7 @@ background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 400px;
+  padding-bottom: 40px;
 
 
 }
@@ -261,10 +262,15 @@ background-repeat: no-repeat;
 footer {
   color: white;
   background-color: black;
-  
-}
 
+}
+.row-product-info {
+  margin-top: 2em;
+}
 .row-product-info .container img {
+  color: white;
+}
+footer a {
   color: white;
 }
 footer .row-product-info .container .footer-list li {
@@ -288,8 +294,26 @@ footer .row-product-info .container .footer-list li {
 .footer-list li {
   line-height: 30px;
 }
+.social-botton .list li {
+  padding: 0 .3em;
+}
+footer .terms-conditions .text-condition a {
+  font-size: 0.7em;
+  text-decoration: none;
+}
+footer hr {
+  border-top: 1px solid #696969;
+  width: 100%;
+}
+footer .badge-store .img-badge-store{
+  text-align: center;
+}
+footer .badge-store .img-badge-store img {
+  max-height: 30px;
+}
 /* .footer-list h3 {
-  padding-top: 0;
+  padding-top: 0;    border-top: 2px solid hsla(0,0%,100%,.1);
+    width: 100%;
     padding-bottom: 1em;
     text-transform: uppercase;
     color: #fff;
@@ -301,8 +325,6 @@ footer .row-product-info .container .footer-list li {
 @media all and (max-width: 767px) {
   /* generali */
 
-
-
   header .container  {
     text-align: center;
   }
@@ -312,7 +334,9 @@ footer .row-product-info .container .footer-list li {
 
 }
 @media all and (max-width:992px){
-
+footer  {
+  text-align: center;
+}
 }
 @media all and (min-width: 993px) {
   .container {
