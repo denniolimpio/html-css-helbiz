@@ -256,6 +256,46 @@ background-repeat: no-repeat;
   font-size: 1.6em;
   padding: 0 10px;
 }
+/* foooter */
+
+footer {
+  color: white;
+  background-color: black;
+  
+}
+
+.row-product-info .container img {
+  color: white;
+}
+footer .row-product-info .container .footer-list li {
+  list-style-type: none;
+  font-size: 0.8em;
+}
+.footer-list {
+  padding-top: 20px;
+}
+.footer-list li a {
+  text-decoration: none;
+  color: #696969;
+  font-size: 1em;
+}
+.footer-list li:first-child a{
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+}
+.footer-list li {
+  line-height: 30px;
+}
+/* .footer-list h3 {
+  padding-top: 0;
+    padding-bottom: 1em;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 600;
+} */
 /* media query */
 
 @media all and (max-width: 767px) {
