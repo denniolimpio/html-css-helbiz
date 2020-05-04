@@ -8,12 +8,10 @@ body {
   line-height: 4em;
 }
 
-
 .list li {
   display: inline-block;
 
 }
-
 .box {
   text-align: center;
 }
@@ -23,28 +21,36 @@ header .list a {
  a:hover {
   background-color:#bcb4b0;
 }
-.list a. {
-
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 h2 {
   font-size: 2.7em;
 }
 /* header | logo */ /* IDEA: per centrare il logo */
+
 header .container {
-   padding: 0;
+  padding: 0px;
 }
  header .container .logo  {
    text-align: center;
 
  }
  header .container .logo img {
-   max-width: 100px;
-   vertical-align: middle;
-   padding-right: .8em;
-   padding-left: .8em;
+  line-height: 40px;
+  vertical-align: middle;
 
  }
-
+.top-header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
  /* header| nav-bar */
 header .container nav {
   text-align: right;
@@ -53,6 +59,7 @@ header .list {
   font-size: .6em;
 }
 header .list a {
+  line-height: 40px;
   text-decoration: none;
   color: black;
 }
@@ -65,11 +72,11 @@ nav .list li:last-of-type {
 
 /* header | lenguages */
 
-.lenguages .list .border {
+.lenguages .border {
   border-right: 1px solid #3d3d3d;
   padding: 0 1.3em;
 }
-.lenguages .list  .no-border a {
+.lenguages.no-border a {
   padding-left: .6em ;
 
 }
@@ -89,7 +96,7 @@ header .jumbotron {
  }
 
  /* per centrare tutto il contenuto del jumbo */
-header .jumbotron .contenuto-centrato{
+.contenuto-centrato{
   position: absolute;
   left: 50%;
   top: 50%;
@@ -155,10 +162,10 @@ main .cards .container .box  .link-cards a {
   position: relative;
   top: 130px;
 }
-.central-hide-smartphone .bottom .bottom-right {
+.bottom-right {
   padding: 52px 38px 0;
 }
-.central-hide-smartphone .bottom .bottom-left {
+.bottom-left {
   padding: 56px 60px 0px;
 }
 
@@ -168,9 +175,10 @@ font-size: 2.3em;
 .bottom-right p {
   line-height: 15px;
 }
+
 /* widget */
 
-.widget .scooter-helbiz {
+.widget .scooter-helbiz  {
   background-image: url(../img/ScooterHelbiz-2400.jpg);
   background-size: cover;
   height: 450px;
@@ -241,17 +249,13 @@ background-repeat: no-repeat;
 
 
 }
-.social-box-center{
+.box-center{
   text-align: center;
   background-color: white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
   padding: 50px 130px;
 
 }
-.social .social-box-center h2 {
+.social .box-center h2 {
   font-size: 1.5em;
   font-weight: 500;
 }
