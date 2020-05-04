@@ -17,11 +17,14 @@ body {
 .box {
   text-align: center;
 }
-.list a {
+header .list a {
   text-transform: uppercase;
 }
-.list a:hover {
-  background-color: yellow;
+ a:hover {
+  background-color:#bcb4b0;
+}
+.list a. {
+
 }
 h2 {
   font-size: 2.7em;
@@ -47,7 +50,7 @@ header .container nav {
   text-align: right;
 }
 header .list {
-  font-size: .8em;
+  font-size: .6em;
 }
 header .list a {
   text-decoration: none;
@@ -128,13 +131,13 @@ main .cards .container .box .title h2{
 
 }
 main .cards .container .box .paragraph p {
-  font-size: 1.7em;
+  font-size: 1.2em;
 }
 
 main .cards .container .box  .link-cards a {
   color: blue;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: .9em;
 }
 
  /* MAIN | banner+smartphone */
